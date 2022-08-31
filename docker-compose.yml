@@ -9,4 +9,4 @@ services:
     container_name: api-movies
     restart: unless-stopped
     ports:
-      - "4000:4000"
+      - "8000:8000"
