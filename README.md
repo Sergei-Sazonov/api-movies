@@ -17,4 +17,11 @@ npm install
 ```bash
 npm start
 ```
+
+## Run inside docker
+
+```bash
+docker-compose build
+docker-compose up
+```
 * Server listening on http://localhost:8000 with an appropriate path
