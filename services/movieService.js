@@ -1,6 +1,6 @@
 const httpStatus = require('http-status');
 const Sequelize = require('sequelize');
-const Movie = require('../models/Movie');
+const Movie = require('../models/movie');
 const ApiError = require('../utils/apiError');
 const message = require('../config/messages');
 const op = Sequelize.Op;
