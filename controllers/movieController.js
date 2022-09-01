@@ -46,6 +46,6 @@ module.exports = {
     importFile: catchError(async (req, res) => {
         const result = await movieService.importFile(req.file);
 
-        return res.status(httpStatus.CREATED).json({ message: message.movieRegistered, data: result });
+        return res.status(httpStatus.CREATED).json({ message: message.movieRegistered, status: 1, data: result });
     }),
 }

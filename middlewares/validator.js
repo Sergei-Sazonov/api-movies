@@ -16,7 +16,7 @@ module.exports = {
     ],
 
     createMovie: [
-        check('title', 'title field can\'t be empty').notEmpty(),
+        check('title', 'title field can\'t be empty').notEmpty().trim(),
         check('year', 'year field can\'t be empty').notEmpty(),
         check('format', 'format field can\'t be empty').notEmpty(),
         check('actors', 'actors field can\'t be empty').notEmpty(),        

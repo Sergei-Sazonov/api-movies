@@ -10,5 +10,9 @@ module.exports = {
     incorrectConfirmPassword: `the confirmed password does not match the one entered`,
     validate: `validation error`,
     wrongFileFormat: `wrong file format suported only .txt`,
-    movieUpdated: `Movie successfully updated`
+    movieUpdated: `Movie successfully updated`,
+    validateYearField: `The year field must consist exclusively of numeric type and must exceed 1900 but not more than 2022`,
+    incorrectFormat: `Incorrect or empty format, available types: VHS, DVD, Blu-Ray`,
+    emptyValue: `An empty value in title is unacceptable`,
+    emptyFile: `File to be added is empty or incorrect`
 }

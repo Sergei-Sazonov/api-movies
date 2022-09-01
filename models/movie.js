@@ -8,7 +8,7 @@ Movie.init({
         type: DataTypes.STRING,
     },
     year: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
     },
     format: {
         type: DataTypes.STRING
