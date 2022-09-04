@@ -13,6 +13,6 @@ module.exports = {
     movieUpdated: `Movie successfully updated`,
     validateYearField: `The year field must consist exclusively of numeric type and must exceed 1900 but not more than 2022`,
     incorrectFormat: `Incorrect or empty format, available types: VHS, DVD, Blu-Ray`,
-    emptyValue: `An empty value in title is unacceptable`,
+    emptyValue: `An empty value is unacceptable`,
     emptyFile: `File to be added is empty or incorrect`
 }
