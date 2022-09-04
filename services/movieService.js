@@ -60,7 +60,7 @@ module.exports = {
             throw new ApiError(httpStatus.BAD_REQUEST, message.movieAlreadyExist);
         }
 
-        if (movie.title === "") {
+        if (movie.title === "" || !movie.actors.length) {
             throw new ApiError(httpStatus.BAD_REQUEST, message.emptyValue);
         }
 
